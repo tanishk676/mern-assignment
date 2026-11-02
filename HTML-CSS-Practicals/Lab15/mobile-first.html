@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Student: Tanishk Jaiswal | Roll No: 2410303504 | Lab 15 Task 1 -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile First</title>
+  <style>
+    .cards { display: flex; flex-direction: column; gap: 16px; }
+    .card { padding: 20px; border: 1px solid #777; }
+    @media (min-width: 600px) {
+      .cards { flex-direction: row; }
+      .card { flex: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="cards">
+    <div class="card"><h2>Card One</h2><p>First responsive card.</p></div>
+    <div class="card"><h2>Card Two</h2><p>Second responsive card.</p></div>
+  </div>
+</body>
+</html>

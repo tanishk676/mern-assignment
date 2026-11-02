@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Student: Tanishk Jaiswal | Roll No: 2410303504 | Lab 14 Task 3 -->
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <style>
+    .dashboard { display: grid; grid-template-columns: 200px 1fr;
+                 grid-template-areas: "header header" "sidebar main" "footer footer";
+                 gap: 10px; }
+    .header { grid-area: header; } .sidebar { grid-area: sidebar; }
+    .main { grid-area: main; } .footer { grid-area: footer; }
+    .dashboard div { background: #dbeafe; padding: 20px; }
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <div class="header">Header</div><div class="sidebar">Sidebar</div>
+    <div class="main">Main Area</div><div class="footer">Footer</div>
+  </div>
+</body>
+</html>

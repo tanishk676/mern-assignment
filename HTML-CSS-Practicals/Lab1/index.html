@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 1: Starting a Git Repository</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Student Details: Tanishk Jaiswal | Roll No: 2410303504 | Experiment 1 -->
+  <header class="lab-header">
+    <div class="badge">BCS554 HTML & CSS Development Lab</div>
+    <h1>Experiment 1: Starting a Git Repository</h1>
+    <p class="student-info">Student: <strong>Tanishk Jaiswal</strong> | Roll No: <strong>2410303504</strong> | Invertis University, Bareilly</p>
+  </header>
+
+  <main class="lab-content">
+    <section class="experiment-output">
+      <div class="sample-box">
+        <h1>Welcome to HTML Lab</h1>
+        <h2>Next Meeting</h2>
+      </div>
+    </section>
+
+    <section class="git-walkthrough">
+      <h3>Terminal Commands Executed</h3>
+      <div class="terminal-card">
+        <div class="terminal-bar">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="term-title">bash - html-lab</span>
+        </div>
+        <pre><code>$ git init
+Initialized empty Git repository in html-lab/.git/
+
+$ git config user.name
+Tanishk Jaiswal
+
+$ git status
+Changes to be committed:  new file: index.html
+
+$ git commit -m "Add home page"
+[main 12ab34c] Add home page
+
+$ git log --oneline
+89cd123 Add next meeting heading
+12ab34c Add home page</code></pre>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

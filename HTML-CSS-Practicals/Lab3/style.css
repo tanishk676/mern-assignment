@@ -1,0 +1,113 @@
+/* Student: Tanishk Jaiswal | Roll No: 2410303504 | Experiment 3 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+  padding: 30px 20px;
+  line-height: 1.6;
+}
+
+.lab-header {
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 20px;
+}
+
+.badge {
+  display: inline-block;
+  background: #10b981;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.lab-header h1 {
+  font-size: 2rem;
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+
+.student-info {
+  font-size: 0.95rem;
+  color: #64748b;
+}
+
+.lab-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.task-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+.task-label {
+  display: inline-block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  color: #64748b;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 4px;
+}
+
+.task-card h1 {
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+  color: #0f172a;
+}
+
+.task-card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #1e293b;
+}
+
+.task-card h3 {
+  font-size: 1.15rem;
+  margin-bottom: 8px;
+  color: #334155;
+}
+
+.task-card p {
+  font-size: 1rem;
+  color: #334155;
+  margin-bottom: 8px;
+}
+
+.sub-nav {
+  margin-top: 25px;
+  padding: 15px;
+  background: #f1f5f9;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.sub-nav a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 6px;
+}
+
+.sub-nav a:hover {
+  text-decoration: underline;
+}

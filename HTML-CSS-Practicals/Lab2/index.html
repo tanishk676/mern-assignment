@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 2: Pushing and Cloning a Repository</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Student Details: Tanishk Jaiswal | Roll No: 2410303504 | Experiment 2 -->
+  <header class="lab-header">
+    <div class="badge">BCS554 HTML & CSS Development Lab</div>
+    <h1>Experiment 2: Pushing and Cloning a Repository</h1>
+    <p class="student-info">Student: <strong>Tanishk Jaiswal</strong> | Roll No: <strong>2410303504</strong> | Invertis University, Bareilly</p>
+  </header>
+
+  <main class="lab-content">
+    <section class="git-workflow">
+      <h2>Remote & Clone Workflow</h2>
+      <div class="flow-steps">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <h3>Bare Remote</h3>
+          <p>Created <code>../html-remote</code> with <code>--bare</code> flag and registered as <code>origin</code>.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <h3>Push to Remote</h3>
+          <p>Pushed commits using <code>git push origin main</code>, syncing repository history.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <h3>Clone Repository</h3>
+          <p>Cloned into <code>html-copy</code> and verified commit log matches original repo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="terminal-card">
+      <div class="terminal-bar">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="term-title">bash - push & clone</span>
+      </div>
+      <pre><code>$ git remote -v
+origin  ../html-remote (fetch)
+origin  ../html-remote (push)
+
+$ git push origin main
+Enumerating objects: 6, done.
+To ../html-remote
+  12ab34c..89cd123 main -> main
+
+$ git clone html-remote html-copy
+Cloning into 'html-copy'...
+
+$ git log --oneline
+89cd123 Add next meeting heading
+12ab34c Add home page</code></pre>
+    </section>
+  </main>
+</body>
+</html>

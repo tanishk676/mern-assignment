@@ -1,0 +1,143 @@
+/* Student: Tanishk Jaiswal | Roll No: 2410303504 | Experiment 11 */
+:root {
+  --main-color: #1d3557;
+  --accent-color: #e63946;
+  --page-padding: 20px;
+  --primary-color: #1d3557;
+  --heading-size: 2rem;
+  --spacing: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #f8fafc;
+  color: var(--main-color);
+  padding: var(--page-padding);
+}
+
+.lab-header {
+  max-width: 850px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 20px;
+}
+
+.badge {
+  display: inline-block;
+  background: var(--accent-color);
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.lab-header h1 {
+  font-size: 2rem;
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+
+.student-info {
+  font-size: 0.95rem;
+  color: #64748b;
+}
+
+.lab-content {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.demo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.card-box {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+.card-box h3 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: #64748b;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 6px;
+}
+
+.box-px {
+  width: 200px;
+  height: 40px;
+  background: lightblue;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  margin-bottom: 12px;
+  font-weight: 600;
+  color: #0369a1;
+}
+
+.box-percent {
+  width: 50%;
+  height: 40px;
+  background: lightgreen;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: #15803d;
+}
+
+.rem-text {
+  font-size: 1.5rem;
+  color: #334155;
+}
+
+.var-demo {
+  padding: var(--spacing);
+}
+
+.var-heading {
+  color: var(--accent-color);
+  font-size: var(--heading-size);
+  margin-bottom: 10px;
+}
+
+.var-p {
+  color: var(--primary-color);
+  font-size: 1.05rem;
+}
+
+.sub-nav {
+  margin-top: 25px;
+  padding: 15px;
+  background: #f1f5f9;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.sub-nav a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 6px;
+}
+
+.sub-nav a:hover {
+  text-decoration: underline;
+}
